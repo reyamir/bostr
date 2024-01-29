@@ -1,6 +1,5 @@
 "use strict";
 const { version } = require("./package.json");
-const WebSocket = require("ws");
 const config = require("./config");
 const http = require("http");
 const http2 = require("http2");
